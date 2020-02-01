@@ -1,0 +1,31 @@
+
+*{
+	box-sizing: border-box;
+}
+
+.wg-navbar{
+	padding-top:1rem;
+	padding-bottom:1rem;
+	top:0;
+	transition:all .3s ease-out;
+	z-index: 100;
+}
+.wg-navbar.nav-fixed{
+	color: #555;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    background: #fff;
+    box-shadow: 0 3px 0 rgba(20,97,255,.15);
+}
+.banner{
+	position: relative;
+	background-blend-mode: normal;
+	background:url("../img/banner/home-hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height:500px;
+}
+.banner-content{
+	height:300px;
+}
