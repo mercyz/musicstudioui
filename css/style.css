@@ -6,16 +6,25 @@
 .wg-navbar{
 	padding-top:1rem;
 	padding-bottom:1rem;
-	top:0;
-	transition:all .3s ease-out;
 	z-index: 100;
+}
+
+.wg-navbar, .wg-navbar *{
+	transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition:all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+
 }
 .wg-navbar.nav-fixed{
 	color: #555;
-    padding-top: .1rem;
-    padding-bottom: .1rem;
     background: #fff;
     box-shadow: 0 3px 0 rgba(20,97,255,.15);
+    position: fixed;
+    padding-top:1rem;
+	padding-bottom:1rem;
+
 }
 .banner{
 	position: relative;
