@@ -1,8 +1,4 @@
 
-*{
-	box-sizing: border-box;
-}
-
 .wg-navbar{
 	padding-top:1rem;
 	padding-bottom:1rem;
@@ -21,7 +17,8 @@
 	color: #555;
     background: #fff;
     box-shadow: 0 3px 0 rgba(20,97,255,.15);
-    position: fixed;
+    position: sticky;
+    top:0;
     padding-top:1rem;
 	padding-bottom:1rem;
 
