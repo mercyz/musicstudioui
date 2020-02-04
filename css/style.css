@@ -43,3 +43,6 @@
     justify-content: center;
     grid-template-columns: repeat(auto-fill,minmax(220px,350px));
 }
+.about{
+	background:#f9f6f6;
+}
